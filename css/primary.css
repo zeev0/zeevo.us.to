@@ -116,7 +116,6 @@ table .glider-align {
 table.SoundTable {
     width:100%;
     background-color:#FFFFFF;
-    border-collapse:collapse;
     border-color:#FFFFFF;
     border-style:solid;
     color:#000000;
@@ -142,4 +141,7 @@ table.SoundTable {
 table.SoundTable td{
     padding-top: .5em;
     padding-bottom: .5em;
+}
+.hide {
+    visibility: hidden;
 }
