@@ -107,5 +107,37 @@ table .glider-align {
 }
 
 .glider {
-    height: 16px 
+    height: 16px
+}
+
+
+
+
+table.SoundTable {
+    width:100%;
+    background-color:#FFFFFF;
+    border-collapse:collapse;
+    border-color:#FFFFFF;
+    border-style:solid;
+    color:#000000;
+}
+
+table.SoundTable td, table.SoundTable th {
+    border-width:2px;
+    border-color:#FFFFFF;
+    border-style:solid;
+    text-align: center;
+}
+
+table.SoundTable thead {
+    background-color:#FFFFCC;
+}
+
+table.SoundTable td {
+
+    padding:0 15px 0 15px;
+
+}
+table.SoundTable th {
+    font-size: 20px;
 }
