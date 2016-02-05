@@ -134,10 +134,12 @@ table.SoundTable thead {
 }
 
 table.SoundTable td {
-
     padding:0 15px 0 15px;
-
 }
-table.SoundTable th {
+table.SoundTable {
     font-size: 20px;
+}
+table.SoundTable td{
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
