@@ -31,7 +31,7 @@
 $data = file_get_contents('data/quotes.json');
 $json_a = json_decode($data);
 shuffle($json_a);
-for ($i = 0; $i <=4; $i++){
+for ($i = 0; $i <4; $i++){
     $ele = $json_a[$i];
     echo "<p>\"{$ele->quote}\" - <b>{$ele->author}</b>, <i>{$ele->source}</i>";
 }
