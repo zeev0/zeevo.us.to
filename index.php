@@ -20,7 +20,6 @@
           <span class="caption">
             <!-- <h4>zeev0</h4> -->
             <p>
-              <!-- links here? -->
               <a class="side" href="mail:zeevozeevo@gmail.com">contact</a>
               <a class="side" href="https://www.github.com/zeev0">github</a>
               <a class="side" href="/soundboard">soundboard</a>
@@ -29,16 +28,15 @@
         </div>
         <div class="one-half column" style="text-align:left;margin-top:5%">
           <h1>c&nbsp;y&nbsp;b&nbsp;e&nbsp;r&nbsp;l&nbsp;i&nbsp;f&nbsp;e</h1>
-          <p>
-            “look at the fucking pace.”
-             - <b>Ryan Lockwood</b>, <i>Streets Agent</i>
-          </p>
-          <!--
-          <p>
-            “The sky above the port was the color of television, tuned to a dead channel.”
-             - <b>William Gibson</b>, <i>Nueromancer</i>
-          </p>
-          -->
+          <?php
+$data = file_get_contents('data/quotes.json');
+$json_a = json_decode($data);
+shuffle($json_a);
+for ($i = 0; $i <=4; $i++){
+    $ele = $json_a[$i];
+    echo "<p>\"{$ele->quote}\" - <b>{$ele->author}</b>, <i>{$ele->source}</i>";
+}
+          ?>
         </div>
       </div>
     </div>
