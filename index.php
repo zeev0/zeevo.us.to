@@ -21,7 +21,6 @@
             <!-- <h4>zeev0</h4> -->
             <p>
               <a class="side" href="https://www.github.com/zeev0">github</a>
-              <a class="side" href="/soundboard">soundboard</a>
             </p>
           </span>
         </div>
