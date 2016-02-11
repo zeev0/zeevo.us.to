@@ -61,5 +61,25 @@ you know how to catch a ride, you can go places",
         "quote":"You have to understand, most of these people are not ready to be unplugged. And many of them are so inured, so hopelessly dependent on the system, that they will fight to protect it.",
         "author":"Morpheus",
         "source":"The Matrix"
+    },
+    {
+        "quote":"I've seen things you people wouldn't believe. Attack ships on
+    fire off the shoulder of Orion. I watched C-beams glitter in the dark near
+    the Tannhäuser Gate. All those moments will be lost in time, like
+tears...in...rain. Time to die.",
+        "author":"Roy Batty",
+        "source":"Blade Runner"
+    },
+    {
+        "quote":"To condense fact from the vapor of nuance.",
+        "author":"Neal Stephenson",
+        "source":"Snow Crash"
+    },
+    {
+        "quote":"He is an electric ghost painted in the colours of a dead
+moment.",
+        "author":"Joseph Mackinnon",
+        "source":"Cypulchre"
     }
+
 ]
