@@ -42,7 +42,6 @@
                     ?>
                     <span class="caption">
                         <!-- <h4>zeev0</h4> -->
-			<!-- $('#main-img').attr('src', "images/posters/bar.png") -->
                         <p>
                             <a class="side" href="https://www.github.com/zeev0">github</a>
                         </p>
