@@ -13,6 +13,21 @@
         <link rel="icon" type="image/png" href="images/favicon.png">
 	<script src="js/jquery-1.12.1.min.js"></script>
 	<script src="js/switch_img.js"></script>
+	<?php
+	$dir          = "images/posters";
+	$return_array = array();
+	if(is_dir($dir)){
+	    if($dh = opendir($dir)){
+		while(($file = readdir($dh)) != false){
+		    if($file == "." or $file == ".."){
+		    } else {
+			$return_array[] = $file; // Add the file to the array
+		    }
+		}
+	    }
+	    echo '<script>var poster_images = ' . json_encode($return_array) . ';</script>';
+	}
+	?>
     </head>
     <body>
         <div class="container">
@@ -23,7 +38,7 @@
                     $files = glob($dir . '/*.*');
                     $file = array_rand($files);
                     $path = $files[$file];
-                    print '<img onclick="switch_img()" src="/' . $path .'" id="main-img" class="u-max-full-width">';
+                    print '<img onclick="switch_img(poster_images)" src="/' . $path .'" id="main-img" class="u-max-full-width">';
                     ?>
                     <span class="caption">
                         <!-- <h4>zeev0</h4> -->
